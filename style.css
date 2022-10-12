@@ -123,6 +123,9 @@ ul {
     font-size: .8rem;
     opacity: .8;
 }
+li {
+    margin-top: 3px;
+}
 
 
 /*Cyan 
