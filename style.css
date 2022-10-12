@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body {
+    padding: 20px;
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#card {
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#top-section {
+    width: 100%;
+    height: 45%;
+    padding: 25px;
+}
+
+#bottom-section {
+    width: 100%;
+    height: 60%;
+}
+
+#bottom-left {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #2ab2af;
+    padding: 30px;
+}
+
+#bottom-right {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #2EBFBD;
+    padding: 30px;
+}
+
+#top-section h2 {
+    color: #2ab2af;
+    margin-bottom: 15px;
+}
+
+#top-section h4 {
+    color: #c0df34;
+    margin-bottom: 15px;
+}
+
+#top-section p {
+    color: #98a6bd;
+}
+
+#bottom-section {
+    color: #e5eff5;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #c0df34;
+    color: #e5eff5;
+}
+
+    button:hover {
+        cursor: pointer;
+        background-color: #A9C42D;
+        transform: scale(1.05);
+    }
+
+#bottom-left h4 {
+    margin-bottom: 15px;
+}
+
+#bottom-left p {
+    font-size: .8rem;
+    margin-bottom: 40px;
+}
+
+#price-frequency, #price-tag {
+    display: inline-block;
+}
+
+#price-container {
+    margin-bottom: 8px;
+}
+
+#price-frequency {
+    position: relative;
+    top: -3px;
+    left: 5px;
+    font-size: .8rem;
+    opacity: .7;
+}
+
+#price-tag {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: .8rem;
+    opacity: .8;
+}
+
+
+/*Cyan 
+#2ab2af(Darker)
+#28b8b4(Lighter)
+#2EBFBD(lighter2)
+*/
+
+/*
+#e5eff5(Light gray)
+#98a6bd(Grayish blue)
+*/
+
+/*Yellow
+#c0df34
+*/
+
+/*
+family: [karla](https://fonts.google.com/specimen/Karla)
+weights: 400, 700
+*/
